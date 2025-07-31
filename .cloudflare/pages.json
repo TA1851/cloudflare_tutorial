@@ -1,0 +1,16 @@
+{
+  "build": {
+    "command": "npm run build",
+    "output": "todos-front/dist"
+  },
+  "routes": [
+    {
+      "pattern": "/api/*",
+      "script": "todo-app/src/index.ts"
+    },
+    {
+      "pattern": "/*",
+      "serve": "/index.html"
+    }
+  ]
+} 

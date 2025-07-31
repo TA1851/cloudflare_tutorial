@@ -23,7 +23,7 @@ export interface UpdateTodoInput {
 }
 
 // API functions
-const API_BASE_URL = 'http://localhost:8787' // Adjust this to your API URL
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8787' // Adjust this to your API URL
 
 const fetchTodos = async (): Promise<Todo[]> => {
   const response = await fetch(`${API_BASE_URL}/todos`)

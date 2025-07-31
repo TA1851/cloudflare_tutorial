@@ -1,0 +1,18 @@
+{
+  "name": "cloudflare-tutorial",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers Tutorial - Todo Application",
+  "private": true,
+  "scripts": {
+    "build": "cd todos-front && npm install && npm run build",
+    "dev": "cd todos-front && npm run dev",
+    "preview": "cd todos-front && npm run preview"
+  },
+  "workspaces": [
+    "todo-app",
+    "todos-front"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 

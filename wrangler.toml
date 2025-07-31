@@ -1,0 +1,9 @@
+name = "cloudflare-tutorial"
+compatibility_date = "2025-07-31"
+
+[build]
+command = "npm run build"
+watch_dir = "todos-front"
+
+[site]
+bucket = "./todos-front/dist" 
