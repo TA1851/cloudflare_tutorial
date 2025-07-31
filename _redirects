@@ -1,5 +1,2 @@
-# API routes for Cloudflare Workers
-/api/* https://todo-app.your-subdomain.workers.dev/api/:splat 200
-
 # SPA fallback
 /* /index.html 200 
