@@ -2,11 +2,5 @@
   "build": {
     "command": "npm run build",
     "output": "todos-front/dist"
-  },
-  "routes": [
-    {
-      "pattern": "/*",
-      "serve": "/index.html"
-    }
-  ]
+  }
 } 
