@@ -4,7 +4,7 @@
   "description": "Cloudflare Workers Tutorial - Todo Application",
   "private": true,
   "scripts": {
-    "build": "cd todos-front && npm install && npm run build && cp -r dist/* ../",
+    "build": "cd todos-front && npm install && npm run build && mkdir -p ../dist && cp -r dist/* ../dist/ && cp ../_redirects ../dist/",
     "dev": "cd todos-front && npm run dev",
     "preview": "cd todos-front && npm run preview"
   },
