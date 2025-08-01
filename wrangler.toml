@@ -1,7 +1,5 @@
-pages_build_output_dir = "dist"
+[pages]
+build_output_dir = "dist"
 
 [build]
-command = "npm run build"
-
-[build.upload]
-format = "directory" 
+command = "npm run build" 
